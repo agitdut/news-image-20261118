@@ -1,11 +1,10 @@
 // news-image-20261118 entry (Node 22, standard library only): the picture of
-// Wednesday 18 November 2026 is entry.png beside this file -- a newspaper
-// front page drawn in code (draw_news.py) with four panels: Iran's drones
-// reaching Kuwait and Bahrain after the U.S. strike on Qeshm Island, the
-// Ebola outbreak in DR Congo more than doubling, Nvidia doubling its
-// revenue while ruling out Jensen Huang's return, and the Democrats
-// winning Alaska's Senate seat -- and this program copies it to
-// /output/entry.png. The gate takes a whole PNG or JPEG of at most 1 MiB
+// Wednesday 18 November 2026 is entry.png beside this file -- a dense
+// single front page drawn in code (draw_news.py): a Gulf lead with a
+// world-at-a-glance map and the Shenzhen summit, three illustrated
+// features (Kerch bridge, Ebola, Nvidia), three columns of short items,
+// a markets strip and an also-in-brief footer -- and this program copies
+// it to /output/entry.png. The gate takes a whole PNG or JPEG of at most 1 MiB
 // and 1024 by 1024 pixels, and the judge sees exactly the bytes copied,
 // so the file is stored already within those limits (1024 by 1024, PNG
 // under 1 MiB). The copy is byte for byte: what the judge sees is exactly
